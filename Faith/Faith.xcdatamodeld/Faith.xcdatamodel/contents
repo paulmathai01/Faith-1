@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G1036" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MyData" representedClassName="MyData" syncable="YES" codeGenerationType="class">
+        <attribute name="isLoggedIn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pref" representedClassName="Pref" syncable="YES" codeGenerationType="class">
+        <attribute name="e1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="e2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="e3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MyData" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Pref" positionX="-63" positionY="54" width="128" height="105"/>
+    </elements>
+</model>
